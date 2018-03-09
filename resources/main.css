@@ -15,8 +15,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+
 	vertical-align: baseline;
 }
 
@@ -24,7 +23,7 @@ time, mark, audio, video {
 
 
 /*GlOBAL CSS*/
-main, header, footer, a{
+body, header, footer, a{
   background-color: black;
   font-family: Helvetica;
   opacity: 0.9;
@@ -36,6 +35,7 @@ main, header, footer, a{
 
 
 /*HEADER CSS*/
+
 header{
   height: 69px;
   width: 100%;
@@ -80,6 +80,32 @@ header{
 
 
 /*MAIN BODY CSS*/
+
+.mission{
+  background-image: url(../resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.missioninfo{
+  width: 1200px;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+}
+h2, h4{
+  padding: 10px;
+  color: seashell;
+}
+
 
 
 

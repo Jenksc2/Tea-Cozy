@@ -32,6 +32,18 @@ body, header, footer, a{
   text-align: center;
 }
 
+h2, h4{
+  padding: 10px;
+
+}
+
+main{
+padding-top: 69px;
+width: 1200px;
+background-color: black;
+margin: auto;
+}
+
 
 
 /*HEADER CSS*/
@@ -81,6 +93,7 @@ header{
 
 /*MAIN BODY CSS*/
 
+/*MISSION SECTION*/
 .mission{
   background-image: url(../resources/images/img-mission-background.jpg);
   height: 700px;
@@ -98,12 +111,35 @@ header{
   flex-direction: column;
   justify-content: center;
 
+}
+
+
+/*TEA OF THE MONTH SECTION*/
+.month{
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.monthimage{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
 
 
 }
-h2, h4{
-  padding: 10px;
-  color: seashell;
+
+.m-image img{
+  height: 200px;
+  width: 300px;
+  padding: 20px 15px;
 }
 
 

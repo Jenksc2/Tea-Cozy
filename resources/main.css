@@ -30,6 +30,7 @@ body, header, footer, a{
   color: seashell;
   font-size: 22px;
   text-align: center;
+
 }
 
 h2, h4{
@@ -42,6 +43,7 @@ padding-top: 69px;
 width: 1200px;
 background-color: black;
 margin: auto;
+
 }
 
 
@@ -67,9 +69,11 @@ header{
   padding-left: 10px;
 
 }
+
 .logo img{
   width: auto;
   height: 50px;
+
 }
 
 /*nav*/
@@ -81,6 +85,7 @@ header{
   align-items: center;
 
 }
+
 .nav span{
   display:inline-block;
   text-decoration: underline;
@@ -102,7 +107,9 @@ header{
   justify-content: center;
   align-items: center;
   margin: auto;
+
 }
+
 .missioninfo{
   width: 1200px;
   height: auto;
@@ -132,8 +139,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 
-
-
 }
 
 .m-image img{
@@ -143,6 +148,45 @@ justify-content: center;
 }
 
 
+/*LOCATIONS SECTION*/
+.locations{
+	background-image: url(../resources/images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 80px;
+	padding-top: 70px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.locatebox{
+	display: flex;
+	justify-content: center;
+
+}
+
+.locateinfo{
+	height: auto;
+	width: 300px;
+	opacity: 1;
+	background-color: black;
+	margin: 5px 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.locateinfo span{
+	margin: 23px auto;
+	display: block;
+
+}
+.locateinfo h3{
+	padding: 10px;
+}
 
 
 /*FOOTER CSS*/
